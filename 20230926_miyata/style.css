@@ -1,0 +1,196 @@
+body {
+    margin: 0%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+header-abc {
+    display: flex;
+    justify-content: end;
+    margin: 0;
+}
+
+.header-img {
+    height: auto;
+    width: 150px;
+    vertical-align: top;
+}
+
+.header-ul {
+    display: flex;
+}
+
+.header-a {
+
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.header-b {
+    opacity: 0.3;
+    font-weight: bold;
+    font-size: 80%;
+    list-style: none;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.header-c {
+    opacity: 0.3;
+    font-weight: bold;
+    font-size: 80%;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: 25px;
+    list-style: none;
+}
+
+.growth-photo {
+    position: relative;
+    top: 30px;
+    left: 40%;
+}
+
+.growth-img {
+    width: 60%;
+}
+
+.growth-commit {
+    position: absolute;
+    top: 130px;
+    left: 18%;
+    font-size: 300%;
+    font-family: "Gorditas", cursive;
+    color: rgb(126, 6, 102);
+}
+
+.growth-growth {
+    color: rgb(2, 114, 114);
+}
+
+.growth-growth::after {
+    content: "\A";
+    white-space: pre;
+}
+
+.commit {
+    position: absolute;
+    top: 375px;
+    left: 260px;
+    color: rgb(126, 6, 102);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.growth-a {
+    color: rgb(2, 114, 114);
+}
+
+.educational {
+    position: absolute;
+    top: 420px;
+    left: 260px;
+    font-size: 17px;
+    opacity: 0.3;
+    font-weight: bold;
+}
+
+.icon1 {
+    position: relative;
+    top: 100px;
+    left: 21%;
+    font-size: 80%;
+    font-family: "Gorditas", cursive;
+    color: rgb(122, 3, 82);
+}
+
+.New-arrival {
+    position: relative;
+    top: 80px;
+    left: 21%;
+    opacity: 0.6;
+    font-size: 120%;
+}
+
+.news {
+    position: relative;
+    top: 100px;
+    left: 21%;
+    font-size: 18px;
+}
+
+.mews-ul {
+    opacity: 0.6;
+    list-style: none;
+}
+
+.mews-li {
+    margin-top: 20px;
+}
+
+.news-icon {
+    color: aliceblue;
+    background-color: rgb(122, 3, 82);
+    text-align: center;
+    padding: 0px 15px;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 15px;
+}
+
+.icon2 {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: "Gorditas", cursive;
+    color: rgb(122, 3, 82);
+}
+
+.Company-tittle {
+    position: relative;
+    top: 180px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.techno {
+    position: relative;
+    top: 180px;
+    left: 10%;
+}
+
+.techno-p {
+    opacity: 0.6;
+    font-size: 18px;
+}
+
+.techno-about {
+    position: absolute;
+    top: 20px;
+    left: 47%;
+}
+
+.techno-img {
+    width: 50%;
+}
+.service {
+    position: relative;
+}
+.icon3 {
+    position: absolute;
+    top: 300px;
+    font-family: "Gorditas", cursive;
+    color: rgb(122, 3, 82);
+}
+.service-tittle {
+    position: absolute;
+    top: 300px;
+    opacity: 0.6;
+}
