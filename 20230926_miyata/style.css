@@ -162,6 +162,7 @@ header-abc {
     text-align: center;
     font-family: "Gorditas", cursive;
     color: rgb(122, 3, 82);
+    margin: 0%;
 }
 
 .tyusei {
@@ -173,11 +174,13 @@ header-abc {
     padding-top: 20px;
     background-color: #0000002e;
     height: 400px;
+    padding-bottom: 60px;
 }
 
 .Company-tittle {
     text-align: center;
     opacity: 0.6;
+    margin: 0%;
 }
 
 .techno {
@@ -189,10 +192,10 @@ header-abc {
 .techno-p {
     opacity: 0.6;
     font-size: 18px;
+    margin: 0%;
 }
 
 .techno-about {
-
     position: absolute;
     top: 30px;
     left: 54%;
@@ -484,8 +487,9 @@ header-abc {
 }
 
 .information-p {
+    margin: 0%;
     position: absolute;
-    top: 50px;
+    top: 40%;
     left: 18%;
     color: aliceblue;
     font-size: 2vw;
@@ -493,25 +497,16 @@ header-abc {
 }
 
 .interview-p {
+    margin: 0%;
     position: absolute;
-    top: 50px;
+    top: 40%;
     left: 68%;
     color: aliceblue;
     font-size: 2vw;
     font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {
-    .child {
-        width: 49%;
-    }
-}
 
-@media screen and (max-width: 480px) {
-    .child {
-        width: 100%;
-    }
-}
 
 footer {
     position: relative;
@@ -566,6 +561,6 @@ footer {
     background-color: #28011800;
 }
 
- /*{
+/*{
     outline: 2px solid blue;
 }
